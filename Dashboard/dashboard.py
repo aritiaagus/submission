@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # load cleaned data
-merged_orders_df = pd.read_csv("Dashboard/merged_orders.csv")
+merged_orders_df = pd.read_csv("Dashboard/product_orders.csv")
 
 # ubah kolom yang semestinya datetime
 datetime_columns = [
